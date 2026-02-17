@@ -8,7 +8,7 @@ const stories = [
       "LightEdge requires uncompromising security. Biometrics help us ensure the high level of accuracy we demand from our access control system. Our direct relationship with Invixium provides us with tailored support from a company that's large enough to support our needs, but also intimate enough to be very personal. Standardizing on RS2 and Invixium helps us ensure that our system upholds our values of high security, modernness and futuristic design.",
     author: "John Martin",
     role: "Director of Data Center Operations at LightEdge Solutions",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/isc-east/brands-logo/lightedge.png",
+    img: "/images/brands/lightedge.png",
   },
   {
     company: "Frisco Mining",
@@ -17,7 +17,7 @@ const stories = [
       "Invixium equipment is characterized by its adaptability in complicated environments, as well as its easy installation and configuration, which allows managing the enrollment and start-up of the system more comfortably.",
     author: "Jorge Alamiya",
     role: "IT Project Manager, Global HCM",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/Transguard-Group-story.png",
+    img: "/images/customer-stories/transguard.png",
   },
 ];
 

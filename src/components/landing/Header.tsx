@@ -5,7 +5,7 @@ const Header = () => (
     <div className="max-w-7xl mx-auto h-full flex items-center justify-between px-6 lg:px-8">
       <a href="https://www.invixium.com">
         <img
-          src="https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/logo-sticky.svg"
+          src="/images/logo-sticky.svg"
           alt="Invixium Logo"
           className="h-12 w-auto object-contain"
         />

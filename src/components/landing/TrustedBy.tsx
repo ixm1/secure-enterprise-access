@@ -2,10 +2,10 @@ const logos = [
   "alabama.png", "amazon.png", "avdg.png", "cboe.png", "barrick-gold.png", "deloitte.png",
   "electric-company-of-omaha.png", "houston-airport.png", "kraft.png", "lightedge.png", "loma_linda.png",
   "louisiana_radio_communications.png", "massachusetts.jpg", "pepsi-logo.png", "piper.png", "pittsburgh.jpg",
-  "ppg.png", "pwc.png", "rutgers.jpg", "sandia-national-laboratories-logo.png", "saudi-aramco.png", "shell.png",
+  "ppg.png", "pwc.png", "rutgers.jpg", "sandia.png", "saudi-aramco.png", "shell.png",
 ];
 
-const BASE = "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/isc-east/brands-logo/";
+const BASE = "/images/brands/";
 
 const TrustedBy = () => (
   <section className="py-8 bg-secondary overflow-hidden">
