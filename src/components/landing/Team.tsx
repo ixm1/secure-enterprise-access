@@ -8,7 +8,7 @@ const team = [
     email: "cthompson@invixium.com",
     phone: "+1 360 219 6204",
     linkedin: "https://www.linkedin.com/in/christopher-t-54ba31ba/",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/intersec/chris-headshot.png",
+    img: "/images/team/chris-headshot.png",
   },
   {
     name: "Javier Fiatt",

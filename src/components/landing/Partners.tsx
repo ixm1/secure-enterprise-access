@@ -1,18 +1,16 @@
 import { MapPin } from "lucide-react";
 
 const row1 = [
-  { logo: "galaxy-logo.png", stand: "Stand 3077" },
-  { logo: "wesco.png", stand: "Stand 20017" },
-  { logo: "idcube.png", stand: "Stand 7051" },
-  { logo: "Honeywell.png", stand: "Stand 20059" },
-  { logo: "genetec.png", stand: "Stand 13062" },
+  { logo: "/images/partners/galaxy-logo.png", stand: "Stand 3077" },
+  { logo: "/images/partners/wesco.png", stand: "Stand 20017" },
+  { logo: "/images/partners/idcube.png", stand: "Stand 7051" },
+  { logo: "/images/partners/honeywell.png", stand: "Stand 20059" },
+  { logo: "/images/partners/genetec.png", stand: "Stand 13062" },
 ];
 
 const row2 = [
-  { logo: "johnson-controls.png", stand: "Stand 18019" },
-  { logo: "dormakaba.png", stand: "Stand 20007" },
-  { logo: "prosegur_logo.png", stand: "Stand 3089" },
-  { logo: "parabit-logo.png", stand: "Stand 23131" },
+  { logo: "/images/partners/johnson-controls.png", stand: "Stand 18019" },
+  { logo: "/images/partners/dormakaba.png", stand: "Stand 20007" },
 ];
 
 const PartnerCard = ({ logo, stand }: { logo: string; stand: string }) => (
@@ -20,7 +18,7 @@ const PartnerCard = ({ logo, stand }: { logo: string; stand: string }) => (
     <div className="bg-background rounded-xl overflow-hidden border border-border hover:border-brand hover:shadow-xl transition-all duration-300 h-full flex flex-col">
       <div className="relative h-40 bg-background flex items-center justify-center p-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-brand/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        <img src={`https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/${logo}`} alt="" className="max-w-full max-h-full object-contain relative z-10 group-hover:scale-105 transition-transform duration-300" />
+        <img src={logo} alt="" className="max-w-full max-h-full object-contain relative z-10 group-hover:scale-105 transition-transform duration-300" />
       </div>
       <div className="bg-gradient-to-br from-primary to-primary/90 p-4 group-hover:from-brand group-hover:to-brand-hover transition-all duration-300">
         <div className="flex items-center justify-center gap-2 text-primary-foreground">

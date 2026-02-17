@@ -11,7 +11,7 @@ const industrialProducts: Product[] = [
     name: "IXM TITAN",
     subtitle: "The Flagship Rugged Biometric Device",
     desc: "Ideal for harsh environments such as for oil & gas refineries, manufacturing plants, construction zones, airports, petrochemicals, and mining sites.",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/ixm-titan.png",
+    img: "/images/products/ixm-titan.png",
     features: [
       { icon: ScanFace, text: "High Speed Touchless Face Recognition" },
       { icon: ShieldCheck, text: "Up to 5-factor authentication" },
@@ -25,7 +25,7 @@ const industrialProducts: Product[] = [
     name: "IXM TFACE",
     subtitle: "The Slimmest Face Recognition Solution",
     desc: "Designed as a mullion-mount dual-biometric device that blends security and convenience.",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/ixm-tface.png",
+    img: "/images/products/ixm-tface.png",
     features: [
       { icon: ShieldCheck, text: "Dual biometrics (Face + Finger) for high security areas" },
       { icon: Cable, text: "PoE+ Makes Installation Simple" },
@@ -39,7 +39,7 @@ const industrialProducts: Product[] = [
     name: "IXM MYCRO",
     subtitle: "Simple Fingerprint and Card Access Control for Door Security",
     desc: "MYCRO offers everything you would expect in a high-end biometric device without over-complicated add-ons.",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/IXM-MYCRO.png",
+    img: "/images/products/ixm-mycro.png",
     imgStyle: "max-w-[180px] max-h-[180px]",
     features: [
       { icon: Key, text: "Combine Biometrics With Cards For Enhanced Security" },
@@ -57,7 +57,7 @@ const enterpriseProducts: Product[] = [
     name: "IXM ROSTO",
     subtitle: "Modern face recognition device for businesses of all sizes",
     desc: "A cost-effective and versatile biometric device designed for fast and secure access control, workforce, and visitor management needs of SMEs.",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/ixm-rosto.webp",
+    img: "/images/products/ixm-rosto.webp",
     features: [
       { icon: ScanFace, text: "High Speed Face Recognition" },
       { icon: Monitor, text: "Digital Card and Dynamic QR Code support via IXM Mobile" },
@@ -71,7 +71,7 @@ const enterpriseProducts: Product[] = [
     name: "IXM TOUCH 3",
     subtitle: "Cost-Effective Fingerprint & Card Device",
     desc: "The newest member of the highest-selling TOUCH Series!",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/ixm-touch3.webp",
+    img: "/images/products/ixm-touch3.webp",
     features: [
       { icon: Fingerprint, text: "Value Driven Fingerprint Technology" },
       { icon: Award, text: "FBI Certified 500dpi Optical Fingerprint Sensor" },
@@ -88,7 +88,7 @@ const ixmWebProducts: Product[] = [
     name: "IXM LINK",
     subtitle: "ACM Integration — No Middleware Needed",
     desc: "IXM Link enables seamless integration between IXM WEB and leading Access Control Panel (ACP) software.",
-    img: "https://www.invixium.com/wp-content/themes/invixium/assets/images/lp/intersec/2025/Thumbnails_17.png",
+    img: "/images/products/ixm-link.png",
     features: [
       { icon: Network, text: "Developed by Invixium, no middleware needed" },
       { icon: Zap, text: "Integrate with leading 15+ access control panels" },
@@ -102,7 +102,7 @@ const ixmWebProducts: Product[] = [
     name: "IXM TIME",
     subtitle: "Biometric Time & Attendance",
     desc: "IXM Time is a biometric time and attendance solution that allows IXM WEB to manage workforces.",
-    img: "https://www.invixium.com/wp-content/themes/invixium/assets/images/lp/intersec/2025/Thumbnails_1.png",
+    img: "/images/products/ixm-time.png",
     features: [
       { icon: Clock, text: "Biometric Time and Attendance" },
       { icon: TrendingUp, text: "Accurate Time Tracking" },
@@ -114,7 +114,7 @@ const ixmWebProducts: Product[] = [
     name: "IXM VISITOR",
     subtitle: "Enterprise Visitor Management",
     desc: "Complete visitor management solution with pre-registration, host notifications, badge printing, and seamless integration with access control systems.",
-    img: "https://www.invixium.com/wp-content/themes/invixium/assets/images/lp/intersec/2025/Thumbnails_16.png",
+    img: "/images/products/ixm-visitor.png",
     features: [
       { icon: UserCheck, text: "Enterprise Visitor Management" },
       { icon: HandMetal, text: "Create and Manage Visits" },

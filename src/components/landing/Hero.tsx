@@ -5,7 +5,7 @@ const Hero = () => (
   <section className="relative w-full overflow-hidden" style={{ height: 560 }}>
     <div className="absolute inset-0">
       <img
-        src="https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/invixium-showcasing-biometric-solutions-at-intersec-2026.png"
+        src="/images/hero-bg.png"
         alt="Biometric Solutions at ISC WEST"
         className="w-full h-full object-cover"
       />
