@@ -1,19 +1,22 @@
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Phone } from "lucide-react";
+import javierImg from "@/assets/javier-fiatt.png";
 
 const team = [
   {
     name: "Chris Thompson",
     role: "National Sales Manager, North America",
     email: "cthompson@invixium.com",
+    phone: "+1 360 219 6204",
     linkedin: "https://www.linkedin.com/in/christopher-t-54ba31ba/",
     img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/intersec/chris-headshot.png",
   },
   {
-    name: "Steve Grebenschikov",
-    role: "VP of Sales, North America",
-    email: "sgrebenschikov@invixium.com",
-    linkedin: "https://www.linkedin.com/in/steve-grebenschikov-8a6b8a1/",
-    img: "https://beta.invixium.com/wp-content/themes/invixium/assets/images/lp/new-design/steve-headshot.png",
+    name: "Javier Fiatt",
+    role: "Director of Sales, Latin America",
+    email: "jfiatt@invixium.com",
+    phone: "+52 55 7944 6498",
+    linkedin: "https://www.linkedin.com/in/javier-fiatt/",
+    img: javierImg,
   },
 ];
 
@@ -46,6 +49,12 @@ const Team = () => (
                       <Mail className="w-4 h-4 text-muted-foreground group-hover/link:text-white transition-all" />
                     </div>
                     <span className="text-xs text-muted-foreground font-medium group-hover/link:text-brand transition-all">{member.email}</span>
+                  </a>
+                  <a href={`tel:${member.phone.replace(/\s/g, '')}`} className="flex items-center gap-3 group/link hover:bg-secondary p-2 rounded-lg transition-all duration-300">
+                    <div className="w-8 h-8 rounded-lg bg-secondary flex items-center justify-center group-hover/link:bg-brand transition-all duration-300">
+                      <Phone className="w-4 h-4 text-muted-foreground group-hover/link:text-white transition-all" />
+                    </div>
+                    <span className="text-xs text-muted-foreground font-medium group-hover/link:text-brand transition-all">{member.phone}</span>
                   </a>
                 </div>
               </div>
